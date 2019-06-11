@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Henny+Penny|Open+Sans');
+
+.detail_main_wrapper {
+  margin: 0;
+  color: #333;
+}
+
+.detail_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+}
+
+.info_detail_wrapper {
+  width: 210px;
+  height: 240px;
+}
+
+.detail_container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  height: 490px;
+}
+.main_title{
+  background-image: url('https://raw.githubusercontent.com/bukvamikk/hp-random-quotes/master/src/img/bg-small.jpg');
+  background-repeat: repeat-x;
+  background-size: cover;	
+}
+.App {
+  width: 100vw;
+   
+  text-align: center;
+  /* font-family: 'Henny Penny'; */
+  text-align: center;
+  margin-bottom: 0;
+  color: #333;
+  height: 100%;
+  font-family: "Crimson Text", Georgia;
+}
+
+.character_title {
+  font-family: 'Henny Penny', cursive;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.image_title {
+  width: 60%;
+  margin-top: 25px;
+}
+
+.characters_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+
+.character_image {
+  width: 150px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.character {
+  width: 250px;
+  height: 280px;
+  padding: 10px;
+}
+
+.character_name {
+  margin: 0;
+}
+
+.home {
+  margin: 0;
+}
+
+.image_detail_title {
+  margin: auto;
+  width: 250px;
+}
+
+.detail_image {
+  height: 250px;
+}
+
+.image_detail {
+  width: 80%;
+  margin-top: 40px;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.shield {
+  width: 20%;
+}
+
+.character_detail_name {
+  margin: 0;
+  padding-top: 10px;
+}
+
+.detail_image_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 100px;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option {
+  text-align: left;
+  margin-right: 10px;
+}
+
+@media (min-width: 600px) {
+  .detail_wrapper {
+    flex-direction: row;
+    width: 600px;
+    justify-content: center;
+  }
+  .info_detail_wrapper {
+    height: 380px;
+    padding-top: 20px;
+  }
+  .detail_image {
+    width: 300px;
+    height: 400px;
+  }
+}
